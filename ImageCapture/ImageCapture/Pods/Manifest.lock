@@ -1,0 +1,119 @@
+PODS:
+  - Firebase/Core (5.20.2):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.8.1)
+  - Firebase/CoreOnly (5.20.2):
+    - FirebaseCore (= 5.4.1)
+  - Firebase/MLModelInterpreter (5.20.2):
+    - Firebase/CoreOnly
+    - FirebaseMLModelInterpreter (= 0.15.0)
+  - FirebaseAnalytics (5.8.1):
+    - FirebaseCore (~> 5.4)
+    - FirebaseInstanceID (~> 3.8)
+    - GoogleAppMeasurement (= 5.8.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.4.1):
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseInstanceID (3.8.1):
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/UserDefaults (~> 5.2)
+  - FirebaseMLCommon (0.15.0):
+    - FirebaseCore (~> 5.4)
+    - FirebaseInstanceID (~> 3.8)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseMLModelInterpreter (0.15.0):
+    - FirebaseCore (~> 5.4)
+    - FirebaseMLCommon (~> 0.15)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+    - TensorFlowLite (= 1.12.0)
+  - GoogleAppMeasurement (5.8.1):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleUtilities/AppDelegateSwizzler (5.7.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.7.0)
+  - GoogleUtilities/Logger (5.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.7.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.7.0)"
+  - GoogleUtilities/Reachability (5.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.7.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.2.1)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - PINCache (2.3)
+  - PINOperation (1.1.1)
+  - SnapSDK (1.2.2):
+    - SnapSDK/SCSDKBitmojiKit (= 1.2.2)
+    - SnapSDK/SCSDKCreativeKit (= 1.2.2)
+    - SnapSDK/SCSDKLoginKit (= 1.2.2)
+  - SnapSDK/SCSDKBitmojiKit (1.2.2):
+    - PINCache (< 3.1, >= 2.3)
+    - PINOperation (~> 1.1)
+  - SnapSDK/SCSDKCreativeKit (1.2.2)
+  - SnapSDK/SCSDKLoginKit (1.2.2)
+  - TensorFlowLite (1.12.0)
+
+DEPENDENCIES:
+  - Firebase/Core
+  - Firebase/MLModelInterpreter
+  - SnapSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMLCommon
+    - FirebaseMLModelInterpreter
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - nanopb
+    - PINCache
+    - PINOperation
+    - SnapSDK
+    - TensorFlowLite
+
+SPEC CHECKSUMS:
+  Firebase: 0c8cf33f266410c61ab3e2265cfa412200351d9c
+  FirebaseAnalytics: ece1aa57a4f43c64d53a648b5a5e05151aae947b
+  FirebaseCore: f1a9a8be1aee4bf71a2fc0f4096df6788bdfda61
+  FirebaseInstanceID: a122b0c258720cf250551bb2bedf48c699f80d90
+  FirebaseMLCommon: 192c49ec584f1fb559747f1da8052441158b04d7
+  FirebaseMLModelInterpreter: 9008415e1208e98ecdbaa9845f137aa922171b26
+  GoogleAppMeasurement: ffe513e90551844a739e7bcbb1d2aca1c28a4338
+  GoogleUtilities: 273e67030e0de313e7304f6dcfa96fc5214f6c23
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  SnapSDK: 16d505e0e5a9340c49ce767f3131f4af76fe29e8
+  TensorFlowLite: e81aef029750aa46b42ad16553fa4cddd81498cc
+
+PODFILE CHECKSUM: 64ce81ebaed9416b62eea0bfa6ab8fbd74290488
+
+COCOAPODS: 1.6.1
